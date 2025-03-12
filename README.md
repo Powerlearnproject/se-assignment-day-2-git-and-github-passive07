@@ -75,9 +75,15 @@ main is the default branch (it may also be master in older repositories).
 when modifying a project, after a particular modification, with out commiting, and you add a new branch  (git new branch 001branch) the jnew modification automatically gets added to the new branch, and you can simply merge commits on branch to main by (git cherry-pick (commit ID) this is to single merge one commit, but to add the whole file on branch to main (git rebase) 
 
  Branching is important when working in a team, it allows every one to wotk on a separate page of the same book, after the project manager must have checked every thing an dit alligns he will simply rebase it and it all becomes one.
-## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
+## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request
+pull request is esential when contributing to open source project, it allows you to request the owner of a project to merge your contribution to the entire work, so they become one.
+
+the oener of the project you contributed to, before merging will check the code to see if it pased to be added to the main project, once it certified, it will be added.
 
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
+forking a repo is more like making a copy of someone elses work to your githuh account, but the forked repo maintains a link to the original copy, you can make changed and make a pull request to th main work. 
+where as cloning a repo is downloading the project directly to your local machine
+forking could be used where you are participating in a community project or in a team project
 
 ## Examine the importance of issues and project boards on GitHub. How can they be used to track bugs, manage tasks, and improve project organization? Provide examples of how these tools can enhance collaborative efforts.
 
